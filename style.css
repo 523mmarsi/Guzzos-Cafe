@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.card-text{
+  font-size: 20px;
+  font-family: 'Libre Baskerville', serif;
+}
+.navbarText{
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+}
+.navbarParagraph{
+  font-size: 20px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.bakedBreadText {
+  font-size: 15px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.navbarFonts{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.rounded-image {
+  border-radius: 50%; /* rounds the corners of the image */
+  cursor: pointer; /* displays a hand cursor when the image is hovered over */
+}
+
+/* change colors of carousel buttons */
+.carousel-control-next:before {
+  content: '>';
+  font-size: 55px;
+  color: black;
+
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+/* ^^^^^^^^^^^ */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.carouselImage {
+  width: 512px;
+  height: 512px;
+}
+
+#breadpic{
+  height:500px;
+}
+
+
+#store{
+  max-width: 50%;
+}
+#bakerypic{
+  height:500px;
+}
+.doubleBorder {
+  border-style: double;
+  border-width: 10px;
+}
+.ridgeBorder {
+  border-style: ridge;
+  border-width:5px;
+}
+
+.shadow1 {
+  box-shadow: 10px 10px 10px #ccc;
+};
+
+.shadow-lg {
+  box-shadow: 20px 20px 20px #ff0000;
+};
+
