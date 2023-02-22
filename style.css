@@ -76,6 +76,11 @@ html, body {
   border-width:5px;
 }
 
+.test {
+  max-width: 100%;
+  height: auto;
+};
+  
 .shadow1 {
   box-shadow: 10px 10px 10px #ccc;
 };
